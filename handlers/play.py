@@ -702,7 +702,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "DaisyMusic"
+        user.first_name =  "ZvcSlayer"
     usar = user
     wew = usar.id
     try:
@@ -732,7 +732,7 @@ async def jiosaavn(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @Mystry_Music_Player to your Group and try again</b>",
+                                  "\n\nOr manually add @ZvcSlayerBot to your Group and try again</b>",
                               )
                               pass
     try:
@@ -800,12 +800,12 @@ async def jiosaavn(client: Client, message_: Message):
             chat_id=message_.chat.id,
             reply_markup=keyboard,
             photo="final.png",
-            caption=f"✯MystryMusic✯=#️⃣ Queued at position {position}",
+            caption=f"✯XvcSlayerBot✯=#️⃣ Queued at position {position}",
         
         )           
            
     else:
-        await res.edit_text("✯MystryMusic✯=▶️ Playing.....")
+        await res.edit_text("✯XvcSlayerBot✯=▶️ Playing.....")
         chat_id = message_.chat.id
         que[chat_id] = []
         qeue = que.get(message_.chat.id)
